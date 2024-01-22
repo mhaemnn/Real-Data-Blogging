@@ -1,29 +1,14 @@
-<header>
-  <a href="" class="logo-wrapper td-none">
-    <div><span>Real</span>Data</div>
-  </a>
-  <nav>
-    <ul class="navmenu">
-      <li class="navitem"><a href="#">All Post</a></li>
-      <li class="navitem"><a href="#">Life Lession</a></li>
-      <li class="navitem"><a href="#">Jurnals</a></li>
-      <li class="navitem">
-        <a href="#">Best Articles</a>
-        <ul class="dropdown">
-          <li><a href="#">Best of 2021</a></li>
-          <li><a href="#">Best of 2022</a></li>
-          <li><a href="#">Best of 2023</a></li>
-        </ul>
-      </li>
-      <li class="navitem"><a href="#">Register</a></li>
-      <li class="navitem"><a href="#">Login</a></li>
-      <li class="navitem">
-        <a href="#">muhaemin</a>
-        <ul class="dropdwon">
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Logout</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 fw-bold" href="index.php">ORDERING APP</a>
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-nav">
+    <div class="nav-item text-nowrap">
+      <span class="text-white fw-bold welcome-text">Selamat datang, muhaemin<?php echo $nama; ?></span>
+      <form action="./pages/logout.php" method="post">
+        <button type="submit" name="btn-logout" class="nav-link px-4 bg-dark border-0 fw-bold text-white">Logout <i class="bi bi-box-arrow-in-right"></i></button>
+      </form>
+    </div>
+  </div>
 </header>
