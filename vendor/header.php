@@ -6,7 +6,7 @@
   <div class="navbar-nav">
     <div class="nav-item text-nowrap">
       <span class="text-white fw-bold welcome-text">Selamat datang, muhaemin<?php echo $nama; ?></span>
-      <form action="./pages/logout.php" method="post">
+      <form action="./pages/auth/logout.php" method="post">
         <button type="submit" name="btn-logout" class="nav-link px-4 bg-dark border-0 fw-bold text-white">Logout <i class="bi bi-box-arrow-in-right"></i></button>
       </form>
     </div>
