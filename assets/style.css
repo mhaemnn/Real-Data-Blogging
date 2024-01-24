@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+.nav-pills .nav-link.active {
+  background-color: #ced4da !important;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: #ced4da !important; /* Ubah sesuai kebutuhan */
+  color: black !important; /* Ubah sesuai kebutuhan */
+}
